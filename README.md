@@ -14,7 +14,7 @@
 
 <br/>
 
-![Hero Banner Placeholder](https://via.placeholder.com/1200x400/000a12/00e5ff?text=COSMOS+GRID+HERO+BANNER)
+![COSMOS GRID Hero Banner](./docs/assets/hero-banner.png)
 
 </div>
 
@@ -63,18 +63,23 @@ You have been granted Commander-level access. It is your responsibility to monit
 
 <div align="center">
 
-![Landing Page Placeholder](https://via.placeholder.com/800x400/000a12/00e5ff?text=Cinematic+Landing+Page)
+![Cinematic Landing Page](./docs/assets/landing-page.png)
 *Cinematic Landing Page & Boot Sequence*
 
 <br/>
 
-![Command Center Placeholder](https://via.placeholder.com/800x400/000a12/00e5ff?text=Command+Center+Dashboard)
+![Command Center Overhaul](./docs/assets/command-center.png)
 *Command Center Overhaul*
 
 <br/>
 
-![Galaxy Map Placeholder](https://via.placeholder.com/800x400/000a12/00e5ff?text=Interactive+Galaxy+Map)
+![Interactive Galaxy Map](./docs/assets/galaxy-map.png)
 *Interactive Galaxy Map*
+
+<br/>
+
+![Mission Briefing](./docs/assets/mission-briefing.png)
+*Mission Briefing Interface*
 
 </div>
 
