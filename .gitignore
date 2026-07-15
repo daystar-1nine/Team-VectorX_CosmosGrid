@@ -1,0 +1,125 @@
+# Dependencies
+/node_modules
+/.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Testing
+/coverage
+/.nyc_output
+
+# Production Build
+/dist
+/build
+/out
+/dist-ssr
+*.tsbuildinfo
+
+# Vite / React / TypeScript
+.vite
+.eslintcache
+.stylelintcache
+.tsbuildinfo
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*.cert
+*.crt
+
+# Temporary Shader & Asset Caches (Three.js specific)
+.glsl-cache
+/assets/temp
+/public/temp
+
+# OS Specific
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon\r\r
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows OS
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux OS
+*~
+.directory
+.Trash-*
+
+# IDEs and Editors
+## VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+## JetBrains / IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+## Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+## Vim
+.*.sw[a-p]
+*.un~
+Session.vim
+.netrwhist
+
+# Logs and Databases
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.sqlite
+*.sqlite3
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Package manager locks (uncomment if you want to ignore them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+# bun.lockb

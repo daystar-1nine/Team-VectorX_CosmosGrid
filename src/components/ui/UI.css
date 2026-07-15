@@ -1,0 +1,82 @@
+/* UI Component Styles */
+.panel {
+  pointer-events: auto;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.panel-header {
+  font-family: var(--font-heading);
+  font-size: 0.8rem;
+  color: var(--color-accent-primary);
+  border-bottom: 1px solid var(--glass-border);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.panel-content {
+  padding: 16px;
+}
+
+/* Specific Panel Placements within the 12-column grid */
+.top-command-bar {
+  grid-column: 1 / -1;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.left-navigation {
+  grid-column: 1 / 3;
+  grid-row: 2 / 12;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.right-intelligence-panel {
+  grid-column: 10 / 13;
+  grid-row: 2 / 13;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  border-left: 1px solid var(--glass-border);
+  padding-left: 24px;
+  overflow-y: auto;
+  padding-right: 12px;
+  /* Scrollbar hiding for Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-accent-primary) transparent;
+}
+
+.bottom-ai-console {
+  grid-column: 3 / 10;
+  grid-row: 11 / 13;
+  display: flex;
+  flex-direction: column;
+}
+
+.center-command-panel {
+  grid-column: 3 / 10;
+  grid-row: 2 / 11;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  overflow-y: auto;
+  padding-right: 12px;
+  padding-bottom: 24px;
+  /* Scrollbar hiding for Firefox */
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-accent-primary) transparent;
+}
+
+/* Base Widget Styling */
+.widget {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;700&family=Orbitron:wght@400;500;700;900&display=swap');
+
+:root {
+  /* Deep Space Core */
+  --color-bg-deep: #040712;
+  --color-bg-surface: #0A1022;
+  --color-bg-elevated: #11182E;
+  
+  /* Accents */
+  --color-accent-primary: #00E5FF;
+  --color-accent-secondary: #6D5DF6;
+  --color-accent-highlight: #5CC8FF;
+  
+  /* Status */
+  --color-status-success: #18E299;
+  --color-status-warning: #F6C344;
+  --color-status-danger: #FF5B7F;
+  
+  /* Typography */
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #A8B3CF;
+  --color-text-muted: #64748B;
+  
+  /* Glass Material */
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  
+  /* Fonts */
+  --font-heading: 'Orbitron', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  
+  /* Z-index layers */
+  --z-background: -10;
+  --z-canvas: 0;
+  --z-ui-base: 10;
+  --z-ui-overlay: 50;
+  --z-modal: 100;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-bg-deep);
+  color: var(--color-text-primary);
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+/* Premium Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 229, 255, 0.3);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 229, 255, 0.6);
+}
+
+/* Glassmorphism Utilities */
+.glass-panel {
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-panel::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: radial-gradient(circle at top left, rgba(255,255,255,0.05), transparent 60%);
+  pointer-events: none;
+}
+
+/* Grid Layout */
+.cosmos-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 24px;
+  padding: 32px;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: var(--z-ui-base);
+  pointer-events: none; /* Let clicks pass through to 3D canvas by default */
+}
+
+.cosmos-grid > * {
+  pointer-events: auto; /* Enable clicks on actual UI elements */
+}
+
+/* Typography Utilities */
+.data-value {
+  font-family: var(--font-mono);
+  color: var(--color-text-primary);
+  font-size: 0.9rem;
+}
+
+.data-label {
+  font-family: var(--font-body);
+  color: var(--color-text-secondary);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
