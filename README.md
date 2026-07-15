@@ -14,7 +14,7 @@
 
 <br/>
 
-![COSMOS GRID Hero Banner](./docs/assets/hero-banner.png)
+![COSMOS GRID Boot Sequence](./docs/assets/1-hero.png)
 
 </div>
 
@@ -63,23 +63,23 @@ You have been granted Commander-level access. It is your responsibility to monit
 
 <div align="center">
 
-![Cinematic Landing Page](./docs/assets/landing-page.png)
-*Cinematic Landing Page & Boot Sequence*
+![Command Center Dashboard](./docs/assets/2-dashboard.png)
+*Command Center UI & Real-Time Telemetry*
 
 <br/>
 
-![Command Center Overhaul](./docs/assets/command-center.png)
-*Command Center Overhaul*
+![Emergency Mission Briefing](./docs/assets/3-briefing.png)
+*Emergency Mission Briefing Interface*
 
 <br/>
 
-![Interactive Galaxy Map](./docs/assets/galaxy-map.png)
-*Interactive Galaxy Map*
+![Interactive Galaxy Map](./docs/assets/4-galaxy-wide.png)
+*Interactive Galaxy Map (Wide Angle)*
 
 <br/>
 
-![Mission Briefing](./docs/assets/mission-briefing.png)
-*Mission Briefing Interface*
+![Galaxy Core View](./docs/assets/5-galaxy-close.png)
+*Interactive Galaxy Map (Core View)*
 
 </div>
 
