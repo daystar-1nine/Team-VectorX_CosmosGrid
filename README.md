@@ -18,6 +18,10 @@
 
 <br/>
 
+### 🚀 [PLAY LIVE DEMO](https://cosmos-grid.vercel.app/)
+
+<br/>
+
 ![COSMOS GRID Boot Sequence](./docs/assets/1-hero.png)
 
 </div>

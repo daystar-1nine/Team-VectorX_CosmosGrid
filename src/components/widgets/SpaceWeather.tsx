@@ -61,7 +61,7 @@ export function SpaceWeather() {
             <motion.div
               key={i}
               animate={{ height: `${val}%`, backgroundColor: val > 70 ? 'var(--color-status-danger)' : color }}
-              transition={{ type: 'spring', stiffness: 100 }}
+              transition={{ ease: "easeInOut", duration: 0.8 }}
               style={{ flex: 1, borderRadius: '2px', opacity: 0.8 }}
             />
           ))}

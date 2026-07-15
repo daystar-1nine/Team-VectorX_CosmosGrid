@@ -47,9 +47,9 @@ export function UniverseHealth() {
                fill="none" 
                stroke={isCritical ? "var(--color-status-danger)" : "var(--color-status-success)"} 
                strokeWidth="2"
-               initial={{ pathLength: 0, opacity: 0 }}
-               animate={{ pathLength: 1, opacity: 1 }}
-               transition={{ duration: isCritical ? 0.5 : 2, repeat: Infinity, ease: "linear" }}
+               initial={{ opacity: 0.2 }}
+               animate={{ opacity: isCritical ? [0.2, 1, 0.2] : [0.1, 0.4, 0.1] }}
+               transition={{ duration: isCritical ? 0.5 : 2, repeat: Infinity, ease: "easeInOut" }}
              />
            </svg>
         </div>
@@ -97,10 +97,10 @@ export function GridStability() {
               <div key={node} style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px' }}>
                 <motion.div 
                   animate={{ 
-                    y: isFailing ? [0, 10, 0] : [0, -5, 0],
-                    scale: isFailing ? [1, 0.8, 1] : 1
+                    scale: isFailing ? [1, 1.5, 1] : 1,
+                    opacity: isFailing ? [0.5, 1, 0.5] : 1
                   }}
-                  transition={{ duration: isFailing ? 0.2 : 2 + node * 0.5, repeat: Infinity }}
+                  transition={{ duration: isFailing ? 0.5 : 2, repeat: Infinity }}
                   style={{ 
                     width: '12px', 
                     height: '12px', 
@@ -119,11 +119,11 @@ export function GridStability() {
           <motion.path 
             d="M 30 60 L 100 60 L 170 60 L 240 60 L 310 60" 
             fill="none" 
-            stroke={isCritical ? "rgba(255, 0, 50, 0.5)" : "rgba(0, 229, 255, 0.3)"} 
+            stroke={isCritical ? "rgba(255, 0, 50, 0.8)" : "rgba(0, 229, 255, 0.3)"} 
             strokeWidth="2" 
-            animate={{ strokeDashoffset: [100, 0] }}
-            transition={{ duration: isCritical ? 0.5 : 2, repeat: Infinity, ease: 'linear' }}
             strokeDasharray="10 10"
+            animate={{ opacity: isCritical ? [0.2, 1, 0.2] : 1 }}
+            transition={{ duration: 0.5, repeat: Infinity }}
           />
         </svg>
       </div>
