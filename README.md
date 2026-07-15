@@ -1,5 +1,9 @@
 <div align="center">
 
+<img src="./public/favicon.svg" alt="COSMOS GRID Logo" width="120" />
+
+<br/>
+
 # COSMOS GRID
 
 [![React](https://img.shields.io/badge/React-18.x-00E5FF?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
