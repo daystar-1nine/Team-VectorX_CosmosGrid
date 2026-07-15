@@ -205,8 +205,10 @@ Inspired by **Apple Vision Pro**, **Interstellar**, and **NASA visualization sys
 
 | Contributor | Role | Links |
 | :--- | :--- | :--- |
-| **Jane Doe** | Principal UI/UX Designer | [GitHub](https://github.com) • [LinkedIn](https://linkedin.com) |
-| **John Smith** | Senior 3D/WebGL Engineer | [GitHub](https://github.com) • [LinkedIn](https://linkedin.com) |
+| **Suraj Sawant** | Full Stack / 3D Engineer | [GitHub](https://github.com/daystar-1nine) • [LinkedIn](https://www.linkedin.com/in/surajsawant19062005/) |
+| **Yatharth Raut** | Frontend / UI Developer | [GitHub](https://github.com/YAth-f4) • [LinkedIn](https://www.linkedin.com/in/yatharth-raut-552901420/) |
+| **Shrawani Kadu** | UI/UX Designer | [GitHub](https://github.com/shrawani3007) • [LinkedIn](https://www.linkedin.com/in/shrawani-kudu-212767393/) |
+| **Diya Singh** | Frontend / Quality Assurance | [GitHub](https://github.com/diya-1720) • [LinkedIn](https://www.linkedin.com/in/diya-singh-897a52351/) |
 
 </div>
 
